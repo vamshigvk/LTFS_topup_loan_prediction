@@ -1,0 +1,29 @@
+ID	Agreement ID (Dummy Value)
+Frequency	Frequency of the loan payment, It can be monthly, half yearly etc
+InstlmentMode	It can be either advance or an arrear while opening the account
+LoanStatus	Active Or closed Account at this point of time
+PaymentMode	"Payement Mode at the start of loan. It can be cheque(PDC), ECS etc
+  (You may need to club them based on their similarity). Example cheque and PDC are same. "
+BranchID	This field implies the client's loan disbursing branch
+Area	Area at which the branch is present( Superset of Branch)
+Tenure	Tenure of the loan
+AssetCost	Cost of asset involved of the given loan
+AmountFinance	Most of the time its equivalent to disbursal amount but in some cases it may vary
+DisbursalAmount	Loan Amount given for a loan
+EMI	EMI for each month
+DisbursalDate	Disbursal date for a loan
+MaturityDAte	Maturity date at which the given loan will end
+AuthDate	Autharization date of loan, it usually is earlier than disbursal date
+AssetID	AssetID is a key generated for an asset for example an eicher tractor has different id than tractor of other brands
+AssetType	Kind of assets for which the loan is taken Tractor, Harvestor etc
+ManufacturerID	"Sonalika, Eicher etc, brands which manufacture these heavy machinaries used in farming. 
+ "
+SupplierID	Supplier from which the purchase was done
+LTV	Loan to value (borrowed amount against the appraised value of the property )
+SEX	Gender of the customer
+AGE	Age of the customer
+MonthlyIncome	Income of the customer
+City	City of the given address
+State	State of the given address
+ZiPCODE	Zip code of the location given as address
+Top-up Month	Period/Bucket when customer took the Top-up loan
